@@ -13,7 +13,7 @@ let props = defineProps({
     <td class="ps-3">
       <div class="d-flex align-items-center gap-3">
         <img
-          :src="`../public/assets/img/small-logos/${props.logo}.svg`"
+          :src="`assets/img/small-logos/${props.logo}.svg`"
           alt="Adobe Xd Logo"
           class="table-icon avatar avatar-sm"
         />
@@ -28,7 +28,7 @@ let props = defineProps({
           href="javascript:;"
           class="avatar avatar-xs rounded-circle"
         >
-          <img :src="`../public/assets/img/${member}.jpg`" alt="team1" />
+          <img :src="`assets/img/${member}.jpg`" alt="team1" />
         </a>
         <!-- <a href="javascript:;" class="avatar avatar-xs rounded-circle">
           <img src="@/assets/img/team-2.jpg" alt="team1" />
