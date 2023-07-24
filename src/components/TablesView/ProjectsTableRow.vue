@@ -12,10 +12,7 @@ let props = defineProps({
   <tr class="border-top">
     <td class="ps-3">
       <div class="d-flex align-items-center gap-3">
-        <img
-          :src="`../public/assets/img/small-logos/${props.photo}.svg`"
-          class="table-icon rounded"
-        />
+        <img :src="`/assets/img/small-logos/${props.photo}.svg`" class="table-icon rounded" />
         <div>
           <h6 class="mb-0 text-sm">{{ props.name }}</h6>
         </div>

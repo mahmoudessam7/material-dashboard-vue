@@ -17,7 +17,7 @@ let status = props.online ? 'Online' : 'Offline'
     <td class="ps-3">
       <div class="d-flex align-items-center gap-3">
         <img
-          :src="`../public/assets/img/${props.photo}.jpg`"
+          :src="`/assets/img/${props.photo}.jpg`"
           alt="Adobe Xd Logo"
           class="table-icon rounded"
         />
