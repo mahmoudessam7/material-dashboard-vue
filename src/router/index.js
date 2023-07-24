@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import DashboardView from '@/views/DashboardView.vue'
 import TablesView from '@/views/TablesView.vue'
 import BillingView from '@/views/BillingView.vue'
@@ -10,8 +9,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'dashboard',
+      component: DashboardView
     },
     {
       path: '/tables',
