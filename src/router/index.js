@@ -7,16 +7,16 @@ import NotificationsView from '@/views/NotificationsView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'dashboard',
-    //   component: DashboardView
-    // },
     {
-      path: '/dashboard',
+      path: '/',
       name: 'dashboard',
       component: DashboardView
     },
+    // {
+    //   path: '/dashboard',
+    //   name: 'dashboard',
+    //   component: DashboardView
+    // },
     {
       path: '/tables',
       name: 'tables',
