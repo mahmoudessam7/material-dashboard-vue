@@ -9,14 +9,14 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: { name: 'dashboard' },
+      name: 'home'
+    },
+    {
+      path: '/dashboard',
       name: 'dashboard',
       component: DashboardView
     },
-    // {
-    //   path: '/dashboard',
-    //   name: 'dashboard',
-    //   component: DashboardView
-    // },
     {
       path: '/tables',
       name: 'tables',
