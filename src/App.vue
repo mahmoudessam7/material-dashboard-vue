@@ -10,7 +10,7 @@ import Hr from './components/Hr.vue'
       href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard "
       target="_blank"
     >
-      <img src="assets/img/logo-ct.png" class="navbar-brand-img" alt="main_logo" />
+      <img src="/assets/img/logo-ct.png" class="navbar-brand-img" alt="main_logo" />
       <span class="ms-1 font-weight-bold text-white">Vue Dashboard</span>
     </a>
     <!-- <hr class="horizontal light mt-2 mb-2" /> -->
