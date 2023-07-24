@@ -1,0 +1,12 @@
+$nav-bg-light: linear-gradient(to right, #2d2d2d, #3b3b3b);
+$color-primary-light: #ec407a;
+$color-primary-dark: #d81b60;
+$bg-brand: linear-gradient(to left, $color-primary-light, $color-primary-dark);
+$enable-negative-margins: true;
+
+$hr-black: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #000, hsla(0, 0%, 100%, 0));
+$hr-white: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff, hsla(0, 0%, 100%, 0));
+
+.bg-brand {
+  background-image: $bg-brand;
+}

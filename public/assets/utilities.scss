@@ -1,0 +1,73 @@
+.avatar-group a:not(:first-child) {
+  margin-left: -8px;
+}
+.avatar-group .avatar {
+  border: 2px solid #fff;
+  position: relative;
+}
+.avatar {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: 50rem;
+  height: 48px;
+  width: 48px;
+  transition: all 0.2s ease-in-out;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+.avatar-xs {
+  height: 24px;
+  width: 24px;
+}
+.avatar-sm {
+  height: 36px;
+  width: 36px;
+}
+
+.text-sm {
+  font-size: 0.875rem !important;
+}
+.text-xs {
+  font-size: 0.75rem !important;
+}
+.text-xxs {
+  font-size: 0.65rem !important;
+}
+
+.table-icon {
+  width: 2.2rem;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+.w-25rem {
+  width: 25rem;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.btn-primary {
+  &:link,
+  &:visited {
+    color: $color-primary-dark;
+    border: 1px solid $color-primary-dark;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &:hover,
+  &:active {
+    opacity: 0.7;
+  }
+}

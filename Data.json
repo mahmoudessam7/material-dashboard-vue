@@ -1,0 +1,150 @@
+{
+  "authors": [
+    {
+      "name": "John Michael",
+      "email": "john@vuejs.com",
+      "position": "Manager",
+      "department": "Organization",
+      "online": true,
+      "date": "23/04/18",
+      "photo": "team-1"
+    },
+    {
+      "name": "Alexa Liras",
+      "email": "alexa@vuejs.com",
+      "position": "Programator",
+      "department": "Developer",
+      "online": false,
+      "date": "11/01/19",
+      "photo": "team-2"
+    },
+    {
+      "name": "Laurent Perrier",
+      "email": "laurent@vuejs.com",
+      "position": "Executive",
+      "department": "Projects",
+      "online": true,
+      "date": "19/09/17",
+      "photo": "team-3"
+    },
+    {
+      "name": "Michael Levi",
+      "email": "michael@vuejs.com",
+      "position": "Programator",
+      "department": "Developer",
+      "online": true,
+      "date": "24/12/08",
+      "photo": "team-4"
+    },
+    {
+      "name": "Richard Gran",
+      "email": "richard@vuejs.com",
+      "position": "Manager",
+      "department": "Executive",
+      "online": false,
+      "date": "04/10/21",
+      "photo": "team-5"
+    },
+    {
+      "name": "Miriam Eric",
+      "email": "miriam@vuejs.com",
+      "position": "Programator",
+      "department": "Developer",
+      "online": false,
+      "date": "14/09/20",
+      "photo": "team-2"
+    }
+  ],
+
+  "projects": [
+    {
+      "photo": "logo-asana",
+      "name": "Asana",
+      "budget": "2,500",
+      "status": "working",
+      "completion": "60%"
+    },
+    {
+      "photo": "logo-github",
+      "name": "GitHub",
+      "budget": "5,000",
+      "status": "done",
+      "completion": "100%"
+    },
+    {
+      "photo": "logo-atlassian",
+      "name": "Atlassian",
+      "budget": "3,400",
+      "status": "canceled",
+      "completion": "30%"
+    },
+    {
+      "photo": "logo-bootstrap",
+      "name": "Bootstrap",
+      "budget": "14,000",
+      "status": "working",
+      "completion": "80%"
+    },
+    {
+      "photo": "logo-slack",
+      "name": "Slack",
+      "budget": "1,000",
+      "status": "canceled",
+      "completion": "0%"
+    },
+    {
+      "photo": "logo-devto",
+      "name": "Devto",
+      "budget": "2,300",
+      "status": "done",
+      "completion": "100%"
+    }
+  ],
+  "invoices": [
+    {
+      "date": "March, 01, 2020",
+      "code": "#MS-415646",
+      "price": "$180"
+    },
+    {
+      "date": "February, 10, 2021",
+      "code": "#RV-126749",
+      "price": "$250"
+    },
+    {
+      "date": "April, 05, 2020",
+      "code": "#FB-212562",
+      "price": "$560"
+    },
+    {
+      "date": "June, 25, 2019",
+      "code": "#QW-103578",
+      "price": "$120"
+    },
+    {
+      "date": "March, 01, 2019",
+      "code": "#AR-803481",
+      "price": "$300"
+    }
+  ],
+  "bills": [
+    {
+      "name": "Oliver Liam",
+      "company": "Viking Burrito",
+      "email": "oliver@burrito.com",
+      "vat": "FRB1235476"
+    },
+    {
+      "name": "Lucas Harper",
+      "company": "Stone Tech Zone",
+      "email": "lucas@stone-tech.com",
+      "vat": "FRB1235476"
+    },
+    {
+      "name": "Ethan James",
+      "company": "Fiber Notion",
+      "email": "ethan@fiber.com",
+      "vat": "FRB1235476"
+    }
+  ]
+}
